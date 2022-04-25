@@ -4,7 +4,7 @@
 DriverPackageDisplayName="ESP32 USB Serial/JTAG VCP driver"
 ManufacturerName="Espressif"
 ServiceName="Microsoft USB Serial Driver"
-esp="ESP32 USB Serial/JTAG"
+esp="ESP32 TinyUSB"
 
 [DefaultInstall]
 CopyINF=esp32-tinyusb.inf
