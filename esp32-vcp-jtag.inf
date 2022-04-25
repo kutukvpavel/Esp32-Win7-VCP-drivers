@@ -2,7 +2,7 @@
 
 [Strings]
 DriverPackageDisplayName="ESP32 USB Serial/JTAG VCP driver"
-ManufacturerName="Espressif"
+ManufacturerName="Microsoft"
 ServiceName="Microsoft USB Serial Driver"
 esp="ESP32 USB Serial/JTAG"
 

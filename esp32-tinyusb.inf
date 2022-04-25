@@ -1,8 +1,8 @@
 ; 2022 MDC
 
 [Strings]
-DriverPackageDisplayName="ESP32 USB Serial/JTAG VCP driver"
-ManufacturerName="Espressif"
+DriverPackageDisplayName="ESP32 TinyUSB VCP driver"
+ManufacturerName="Microsoft"
 ServiceName="Microsoft USB Serial Driver"
 esp="ESP32 TinyUSB"
 
