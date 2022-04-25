@@ -6,6 +6,7 @@ This is well-documented on MS website:
  - https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-driver-installation-based-on-compatible-ids
  - https://docs.microsoft.com/en-us/troubleshoot/windows-client/deployment/how-to-use-reference-usbser-driver-universal-serial-bus
  - https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/supported-usb-classes
+
 Therefore, the solution is simple: provide your own INF file with your VID/PID that references usbser.sys in some way. MS recommends to do it indirectly, through modem class. You don't have to install WinUSB using Zadig, if you use these custom INFs! If you did, you may need to uninstall it.
 
 This repo contains INFs with VID/PID/MIs for:
