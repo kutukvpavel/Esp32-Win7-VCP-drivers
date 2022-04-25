@@ -7,7 +7,7 @@ ServiceName="Microsoft USB Serial Driver"
 esp="ESP32 USB Serial/JTAG"
 
 [DefaultInstall]
-CopyINF=esp32-vcp-jtag.inf
+CopyINF=esp32-tinyusb.inf
 
 [Version]
 DriverVer=04/26/2022,1.0.0
