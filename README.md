@@ -16,3 +16,7 @@ This repo contains INFs with VID/PID/MIs for:
 In case your particular chip has a different PID, you can just edit the INF yourself (look at \[Models. ...\] sections).
 
 Thanks to David Grayson for an INF template: https://stackoverflow.com/questions/41928144/inf-file-cant-find-usbser-sys-in-windows-7-only
+
+# Additional info
+
+Usually ESP32 native USB stack (the one contained in ROM) exposes 2 USB endpoints (devices). Only one of the 2 endpoints provides the serial port functionality. This is by design. Go to device manager -> device properties and look up "Compatible IDs". For one of the endpoints you should see `USB\Class_02&SubClass_02` - this is the COM port you have to install the INF for.
