@@ -13,7 +13,7 @@ This repo contains INFs with VID/PID/MIs for:
  - ESP32-S3 embedded Serial/JTAG USB stack (located in ROM), activated as "(secondary) serial console" in configuration \[esp32-vcp-jtag.inf\]
  - ESP32-IDF TinyUSB stack, configured to use Espressif VID and TinyUSB PID \[esp32-tinyusb.inf\]
 
-In case your particular chip has a different PID, you can just edit the INF yourself (look at \[Models. ...\] sections).
+In case your particular chip has a different PID, you can just edit the INF yourself (look at \[Models. ...\] sections). Feel free to create pull requests for new chips.
 
 Thanks to David Grayson for an INF template: https://stackoverflow.com/questions/41928144/inf-file-cant-find-usbser-sys-in-windows-7-only
 
